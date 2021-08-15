@@ -46,7 +46,7 @@ def snakegame():
         while game_end == True:
             dis.fill(bluecolor)
             font_style = pygame.font.SysFont("comicsansms", 25)
-            mesg = font_style.render("Naak Kata Li ! Wanna Play Again? Press P", True, redcolor)
+            mesg = font_style.render("Game Over! Wanna try again? Press P", True, redcolor)
             dis.blit(mesg, [display_width / 6, display_height / 3])
 
             # for displaying the score:
